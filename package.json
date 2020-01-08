@@ -16,7 +16,7 @@
   },
   "devDependencies": {
     "lerna": "^3.20.2",
-    "prettier": "^1.21.1",
-    "yarn": "^1.19.1"
+    "prettier": "^1.19.1",
+    "yarn": "^1.21.1"
   }
 }

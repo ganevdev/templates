@@ -1,0 +1,29 @@
+{
+  "name": "cra-template-ganevru",
+  "version": "1.0.13",
+  "description": "My personal Create React App template.",
+  "keywords": [
+    "create-react-app",
+    "react",
+    "template"
+  ],
+  "bugs": {
+    "url": "https://github.com/ganevru/cra-template-ganevru/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ganevru/cra-template-ganevru.git"
+  },
+  "license": "MIT",
+  "author": "Ivan Ganev <ganevio92@gmail.com>",
+  "files": [
+    "template",
+    "template.json"
+  ],
+  "main": "template.json",
+  "engines": {
+    "node": ">=10.15.0",
+    "npm": "! use yarn !",
+    "yarn": ">=1.0.0"
+  }
+}
