@@ -4,5 +4,19 @@
   "description": "my cra templates",
   "main": "index.js",
   "license": "MIT",
-  "private": true
+  "private": true,
+  "author": "Ivan Ganev <ganevio92@gmail.com>",
+  "workspaces": [
+    "packages/*"
+  ],
+  "engines": {
+    "node": ">=10.15.0",
+    "npm": "! use yarn !",
+    "yarn": ">=1.5.1"
+  },
+  "devDependencies": {
+    "lerna": "^3.20.2",
+    "prettier": "^1.21.1",
+    "yarn": "^1.19.1"
+  }
 }
