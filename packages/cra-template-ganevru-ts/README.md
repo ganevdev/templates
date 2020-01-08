@@ -15,14 +15,3 @@ npm init react-app my-react-app-ts --template ganevru-ts
 ```
 
 npm: https://www.npmjs.com/package/cra-template-ganevru-ts
-
-## Development
-
-New version
-
-```
-git add -A
-git commit -m "fix"
-yarn version --patch
-git push origin master
-```
