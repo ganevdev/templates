@@ -2,6 +2,10 @@
 
 This is monorepo.
 
+https://www.npmjs.com/package/cra-template-ganevru
+
+https://www.npmjs.com/package/cra-template-ganevru-ts
+
 ## lerna publish
 
 ```bash

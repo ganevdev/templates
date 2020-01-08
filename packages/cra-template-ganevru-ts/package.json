@@ -9,11 +9,11 @@
     "typescript"
   ],
   "bugs": {
-    "url": "https://github.com/ganevru/cra-template-ganevru-ts/issues"
+    "url": "https://github.com/Ganevru/cra-templates/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ganevru/cra-template-ganevru-ts.git"
+    "url": "https://github.com/Ganevru/cra-templates.git"
   },
   "license": "MIT",
   "author": "Ivan Ganev <ganevio92@gmail.com>",
