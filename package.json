@@ -1,0 +1,8 @@
+{
+  "name": "cra-templates",
+  "version": "1.0.0",
+  "description": "my cra templates",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true
+}
