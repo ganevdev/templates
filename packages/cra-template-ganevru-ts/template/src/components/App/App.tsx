@@ -12,7 +12,9 @@ const App: React.FC = () => {
           With <code>yarn</code>:
         </p>
         <pre>
-          <code>yarn create react-app my-react-app-ts --template ganevru-ts</code>
+          <code>
+            yarn create react-app my-react-app-ts --template ganevru-ts
+          </code>
         </pre>
         <p>
           Better to use <code>yarn</code>, but if necessary:
