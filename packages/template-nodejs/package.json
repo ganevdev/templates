@@ -1,6 +1,7 @@
 {
   "name": "template-nodejs",
   "version": "0.1.0",
+  "private": true,
   "homepage": "https://github.com/Ganevru/template-nodejs",
   "repository": {
     "type": "git",
