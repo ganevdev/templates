@@ -6,7 +6,7 @@
   "homepage": "https://github.com/Ganevru/templates",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Ganevru/templates.git"
+    "url": "https://github.com/Ganevru/templates.git"
   },
   "license": "MIT",
   "author": "Ivan Ganev <ganevio92@gmail.com>",

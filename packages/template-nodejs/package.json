@@ -4,7 +4,7 @@
   "homepage": "https://github.com/Ganevru/template-nodejs",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Ganevru/template-nodejs.git"
+    "url": "https://github.com/Ganevru/template-nodejs.git"
   },
   "license": "MIT",
   "author": "Ivan Ganev <ganevio92@gmail.com>",
