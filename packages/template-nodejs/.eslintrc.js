@@ -1,13 +1,23 @@
 'use strict';
 module.exports = {
+  extends: [
+    'eslint:recommended',
+    'plugin:jest/recommended',
+    'plugin:jest/style',
+    'plugin:node/recommended',
+  ],
+  env: {
+    es6: true,
+    jest: true,
+    node: true
+  },
   parserOptions: {
-    ecmaVersion: 10,
+    ecmaVersion: 2020,
     sourceType: 'module',
   },
-  plugins: ['simple-import-sort', 'prettier'],
+  plugins: ['jest', 'prettier'],
   rules: {
     'prettier/prettier': 'warn',
-    'simple-import-sort/sort': 'warn',
     'sort-imports': 'off',
   },
 };

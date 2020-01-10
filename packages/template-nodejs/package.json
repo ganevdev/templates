@@ -10,15 +10,22 @@
   "license": "MIT",
   "author": "Ivan Ganev <ganevio92@gmail.com>",
   "main": "index.js",
-  "dependencies": {
+  "scripts": {
+    "test": "jest",
+    "test:watch": " --watch"
+  },
+  "dependencies": {},
+  "devDependencies": {
     "eslint": "^6.8.0",
+    "eslint-plugin-jest": "^23.4.0",
+    "eslint-plugin-node": "^11.0.0",
     "eslint-plugin-prettier": "^3.1.2",
     "eslint-plugin-simple-import-sort": "^5.0.0",
     "jest": "^24.9.0",
     "prettier": "^1.19.1"
   },
   "engines": {
-    "node": ">=10.15.0",
+    "node": ">=12.0.0",
     "npm": "! use yarn !",
     "yarn": ">=1.0.0"
   }

@@ -32,7 +32,7 @@ yarn create react-app my-react-app-ts --template ganevru-ts
 
 Repo: https://github.com/Ganevru/template-nodejs
 
-Start new GitHub repo from Template: https://github.com/Ganevru/template-nodejs/generate
+Start a new GitHub repo from Template: https://github.com/Ganevru/template-nodejs/generate
 
 Or git clone:
 
