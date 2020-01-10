@@ -1,22 +1,27 @@
 {
   "name": "templates",
   "version": "1.0.0",
-  "description": "Ivan Ganev personal templates and starters",
-  "main": "index.js",
-  "license": "MIT",
   "private": true,
+  "description": "Ivan Ganev personal templates and starters",
+  "homepage": "https://github.com/Ganevru/templates",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ganevru/templates.git"
+  },
+  "license": "MIT",
   "author": "Ivan Ganev <ganevio92@gmail.com>",
+  "main": "index.js",
   "workspaces": [
     "packages/*"
   ],
-  "engines": {
-    "node": ">=10.15.0",
-    "npm": "! use yarn !",
-    "yarn": ">=1.5.1"
-  },
   "devDependencies": {
     "lerna": "^3.20.2",
     "prettier": "^1.19.1",
     "yarn": "^1.21.1"
+  },
+  "engines": {
+    "node": ">=10.15.0",
+    "npm": "! use yarn !",
+    "yarn": ">=1.5.1"
   }
 }
