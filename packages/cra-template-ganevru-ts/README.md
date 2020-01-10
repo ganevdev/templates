@@ -2,6 +2,8 @@
 
 My personal Create React App template with TypeScript.
 
+Main repo: https://github.com/Ganevru/templates
+
 More about templates: https://create-react-app.dev/docs/custom-templates
 
 ```

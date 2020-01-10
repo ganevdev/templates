@@ -10,7 +10,8 @@ About CRA templates: https://create-react-app.dev/docs/custom-templates
 
 ### cra-template-ganevru
 
-https://www.npmjs.com/package/cra-template-ganevru
+npm: https://www.npmjs.com/package/cra-template-ganevru  
+repo: https://github.com/Ganevru/cra-template-ganevru
 
 ```
 yarn create react-app my-react-app --template ganevru
@@ -18,13 +19,18 @@ yarn create react-app my-react-app --template ganevru
 
 ### cra-template-ganevru-ts
 
-https://www.npmjs.com/package/cra-template-ganevru-ts
+npm: https://www.npmjs.com/package/cra-template-ganevru-ts  
+repo: https://github.com/Ganevru/cra-template-ganevru-ts
 
 ```
 yarn create react-app my-react-app-ts --template ganevru-ts
 ```
 
 ## Nodejs
+
+### template-nodejs
+
+repo: https://github.com/Ganevru/template-nodejs
 
 ## Development
 
