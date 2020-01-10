@@ -1,8 +1,12 @@
-# My personal Create React App Templates (CPA)
+# Ivan Ganev personal templates and starters
 
-This is monorepo.
+Monorepository of my personal templates and starters.
 
-## cra-template-ganevru
+## Create React App
+
+About CRA templates: https://create-react-app.dev/docs/custom-templates
+
+### cra-template-ganevru
 
 https://www.npmjs.com/package/cra-template-ganevru
 
@@ -10,7 +14,7 @@ https://www.npmjs.com/package/cra-template-ganevru
 yarn create react-app my-react-app --template ganevru
 ```
 
-## cra-template-ganevru-ts
+### cra-template-ganevru-ts
 
 https://www.npmjs.com/package/cra-template-ganevru-ts
 
@@ -18,7 +22,9 @@ https://www.npmjs.com/package/cra-template-ganevru-ts
 yarn create react-app my-react-app-ts --template ganevru-ts
 ```
 
-## lerna publish
+## Nodejs
+
+## Development
 
 ```bash
 lerna publish
