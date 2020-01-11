@@ -9,26 +9,22 @@
   },
   "license": "MIT",
   "author": "Ivan Ganev <ganevio92@gmail.com>",
-  "main": "dist/main.js",
-  "types": "dist/main.d.ts",
+  "main": "dist/src/main.js",
+  "types": "dist/src/main.d.ts",
   "scripts": {
     "build": "yarn clean && tsc -p tsconfig.release.json",
-    "build:watch": "yarn clean &&  tsc -w -p tsconfig.release.json",
+    "build:watch": "yarn clean && tsc -w -p tsconfig.release.json",
     "clean": "rimraf coverage dist tmp",
-    "start": "yarn build && node dist/main.js",
+    "start": "node dist/main.js",
     "test": "jest",
     "test:coverage": "jest --coverage",
     "test:watch": "jest --watch"
   },
-  "dependencies": {},
   "devDependencies": {
-    "@babel/preset-env": "^7.4.3",
-    "@babel/preset-typescript": "^7.3.3",
     "@types/jest": "^24.0.25",
     "@types/node": "^13.1.6",
     "@typescript-eslint/eslint-plugin": "^2.15.0",
     "@typescript-eslint/parser": "^2.15.0",
-    "babel-eslint": "^10.0.1",
     "eslint": "^6.8.0",
     "eslint-plugin-jest": "^23.4.0",
     "eslint-plugin-prettier": "^3.1.2",
@@ -44,5 +40,8 @@
     "node": ">=10.0.0",
     "npm": "! use yarn !",
     "yarn": ">=1.0.0"
+  },
+  "dependencies": {
+    "tslib": "^1.10.0"
   }
 }
