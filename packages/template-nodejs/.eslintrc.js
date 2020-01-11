@@ -18,6 +18,5 @@ module.exports = {
   plugins: ['jest', 'prettier'],
   rules: {
     'prettier/prettier': 'warn',
-    'sort-imports': 'off',
   },
 };

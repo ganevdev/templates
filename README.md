@@ -40,6 +40,18 @@ Or git clone:
 git clone git@github.com:Ganevru/template-nodejs.git nodejs-project
 ```
 
+### template-nodejs-ts
+
+Repo: https://github.com/Ganevru/template-nodejs-ts
+
+Start a new GitHub repo from Template: https://github.com/Ganevru/template-nodejs-ts/generate
+
+Or git clone:
+
+```
+git clone git@github.com:Ganevru/template-nodejs-ts.git nodejs-project
+```
+
 ## Development
 
 ```bash
