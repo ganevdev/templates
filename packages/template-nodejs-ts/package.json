@@ -12,10 +12,10 @@
   "main": "dist/main.js",
   "types": "dist/main.d.ts",
   "scripts": {
-    "build": "tsc -p tsconfig.release.json",
-    "build:watch": "tsc -w -p tsconfig.release.json",
+    "build": "yarn clean && tsc -p tsconfig.release.json",
+    "build:watch": "yarn clean &&  tsc -w -p tsconfig.release.json",
     "clean": "rimraf coverage dist tmp",
-    "start": "node dist/main.js",
+    "start": "yarn build && node dist/main.js",
     "test": "jest",
     "test:coverage": "jest --coverage",
     "test:watch": "jest --watch"
