@@ -1,11 +1,11 @@
 {
-  "name": "template-nodejs",
+  "name": "template-nodejs-ts",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/Ganevru/template-nodejs",
+  "homepage": "https://github.com/Ganevru/template-nodejs-ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Ganevru/template-nodejs.git"
+    "url": "https://github.com/Ganevru/template-nodejs-ts.git"
   },
   "license": "MIT",
   "author": "Ivan Ganev <ganevio92@gmail.com>",

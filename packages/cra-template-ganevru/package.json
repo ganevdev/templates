@@ -19,6 +19,9 @@
     "template.json"
   ],
   "main": "template.json",
+  "scripts": {
+    "test": "echo 'no tests'"
+  },
   "engines": {
     "node": ">=10.15.0",
     "npm": "! use yarn !",
