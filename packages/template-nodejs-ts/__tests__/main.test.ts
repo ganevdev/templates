@@ -16,7 +16,7 @@ describe('greeter function', () => {
   });
 
   // Assert if setTimeout was called properly
-  it('delays the greeting by 2 seconds', () => {
+  test('delays the greeting by 2 seconds', () => {
     expect(setTimeout).toHaveBeenCalledTimes(1);
     expect(setTimeout).toHaveBeenLastCalledWith(
       expect.any(Function),
@@ -25,7 +25,7 @@ describe('greeter function', () => {
   });
 
   // Assert greeter result
-  it('greets a user with `Hello, {name}` message', () => {
+  test('greets a user with `Hello, {name}` message', () => {
     expect(hello).toBe(`Hello, ${name}`);
   });
 });

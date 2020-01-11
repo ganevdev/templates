@@ -42,6 +42,8 @@ git clone git@github.com:Ganevru/template-nodejs.git nodejs-project
 
 ### template-nodejs-ts
 
+Mainly based on https://github.com/jsynowiec/node-typescript-boilerplate
+
 Repo: https://github.com/Ganevru/template-nodejs-ts
 
 Start a new GitHub repo from Template: https://github.com/Ganevru/template-nodejs-ts/generate
