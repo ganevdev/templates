@@ -49,7 +49,7 @@ Start a new GitHub repo from Template: https://github.com/Ganevru/template-nodej
 Or git clone:
 
 ```
-git clone git@github.com:Ganevru/template-nodejs-ts.git nodejs-project-ts
+git clone git@github.com:Ganevru/template-nodejs-ts.git nodejs-ts-project
 ```
 
 ## Development
