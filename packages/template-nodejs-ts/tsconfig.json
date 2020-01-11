@@ -7,7 +7,7 @@
     "forceConsistentCasingInFileNames": true,
     "importHelpers": true,
     "jsx": "react",
-    "module": "ESNext",
+    "module": "CommonJS",
     "moduleResolution": "node",
     "noFallthroughCasesInSwitch": true,
     "noImplicitAny": false,
@@ -15,10 +15,8 @@
     "noImplicitThis": false,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "sourceMap": true,
     "strictNullChecks": false,
     "target": "es6"
   },
-  "exclude": ["src/**/*.test.js", "src/**/*.test.ts"],
-  "include": ["src/**/*"]
+  "include": ["src/**/*", "__tests__/**/*"]
 }

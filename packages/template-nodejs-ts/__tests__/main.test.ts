@@ -1,4 +1,4 @@
-import { Delays, greeter } from './main';
+import { Delays, greeter } from '../src/main';
 
 describe('greeter function', () => {
   // Read more about fake timers
@@ -6,26 +6,26 @@ describe('greeter function', () => {
   jest.useFakeTimers();
 
   const name = 'John';
-  let hello;
+  let hello: string;
 
   // Act before assertions
   beforeAll(async () => {
-    const p = greeter(name);
+    const p: Promise<string> = greeter(name);
     jest.runOnlyPendingTimers();
     hello = await p;
   });
 
   // Assert if setTimeout was called properly
-  test('delays the greeting by 2 seconds', () => {
+  it('delays the greeting by 2 seconds', () => {
     expect(setTimeout).toHaveBeenCalledTimes(1);
     expect(setTimeout).toHaveBeenLastCalledWith(
       expect.any(Function),
-      Delays.Long
+      Delays.Long,
     );
   });
 
   // Assert greeter result
-  test('greets a user with `Hello, {name}` message', () => {
+  it('greets a user with `Hello, {name}` message', () => {
     expect(hello).toBe(`Hello, ${name}`);
   });
 });
