@@ -9,6 +9,8 @@
   },
   "license": "MIT",
   "author": "Ivan Ganev <ganevio92@gmail.com>",
+  "main": "dist/src/main.js",
+  "types": "dist/src/main.d.ts",
   "scripts": {
     "build": "yarn clean && tsc -p tsconfig.release.json",
     "build:watch": "yarn clean &&  tsc -w -p tsconfig.release.json",

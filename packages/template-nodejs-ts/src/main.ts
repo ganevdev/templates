@@ -1,3 +1,6 @@
+// start main
+console.log('start main');
+
 /**
  * Some predefined delays (in milliseconds).
  */
@@ -22,8 +25,6 @@ function delayedHello(
     setTimeout(() => resolve(`Hello, ${name}`), delay),
   );
 }
-
-console.log('start main');
 
 // Below are examples of using ESLint errors suppression
 // Here it is suppressing missing return type definitions for greeter function
