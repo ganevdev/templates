@@ -14,7 +14,7 @@
   "scripts": {
     "build": "tsc -p tsconfig.release.json",
     "build:watch": "tsc -w -p tsconfig.release.json",
-    "clean": "rimraf coverage build tmp",
+    "clean": "rimraf coverage dist tmp",
     "start": "node dist/main.js",
     "test": "jest",
     "test:coverage": "jest --coverage",
