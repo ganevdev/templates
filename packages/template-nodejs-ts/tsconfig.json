@@ -1,22 +1,25 @@
 {
   "compilerOptions": {
-    "allowJs": false,
+    "target": "es6",
+    "module": "commonjs",
+    "moduleResolution": "node",
     "allowSyntheticDefaultImports": true,
-    "alwaysStrict": true,
-    "declaration": true,
-    "forceConsistentCasingInFileNames": true,
+    "allowJs": true,
     "importHelpers": true,
     "jsx": "react",
-    "module": "CommonJS",
-    "moduleResolution": "node",
+    "alwaysStrict": true,
+    "sourceMap": true,
+    "forceConsistentCasingInFileNames": true,
     "noFallthroughCasesInSwitch": true,
-    "noImplicitAny": false,
     "noImplicitReturns": true,
-    "noImplicitThis": false,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "strictNullChecks": false,
-    "target": "es6"
+    "noImplicitAny": false,
+    "noImplicitThis": false,
+    "strictNullChecks": false
   },
-  "include": ["src/**/*", "__tests__/**/*"]
+  "include": [
+    "src/**/*",
+    "__tests__/**/*"
+  ]
 }

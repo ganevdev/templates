@@ -1,3 +1,7 @@
+[![TypeScript version][ts-badge]][typescript-37]
+[![Node.js version][nodejs-badge]][nodejs]
+[![APLv2][license-badge]][license]
+
 # Template Nodejs TypeScript
 
 My personal nodejs typescript template

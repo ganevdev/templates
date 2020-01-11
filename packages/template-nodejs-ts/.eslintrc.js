@@ -1,6 +1,7 @@
 'use strict';
 module.exports = {
   env: {
+    browser: false,
     es6: true,
     jest: true,
     node: true,
@@ -11,6 +12,8 @@ module.exports = {
     'plugin:@typescript-eslint/recommended',
     'plugin:jest/recommended',
     'plugin:jest/style',
+    'prettier',
+    'prettier/@typescript-eslint',
   ],
   parser: '@typescript-eslint/parser',
   parserOptions: {
