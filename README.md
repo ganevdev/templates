@@ -17,6 +17,12 @@ Repo: https://github.com/Ganevru/cra-template-ganevru
 yarn create react-app my-react-app --template ganevru
 ```
 
+or
+
+```
+npm init react-app my-react-app --template ganevru
+```
+
 ### cra-template-ganevru-ts
 
 npm: https://www.npmjs.com/package/cra-template-ganevru-ts  
@@ -24,6 +30,12 @@ Repo: https://github.com/Ganevru/cra-template-ganevru-ts
 
 ```
 yarn create react-app my-react-app-ts --template ganevru-ts
+```
+
+or
+
+```
+npm init react-app my-react-app-ts --template ganevru-ts
 ```
 
 ## Nodejs
