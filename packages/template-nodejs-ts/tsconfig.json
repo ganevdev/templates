@@ -1,21 +1,20 @@
 {
   "compilerOptions": {
-    "target": "es6",
-    "module": "commonjs",
-    "moduleResolution": "node",
     "allowSyntheticDefaultImports": true,
-    "declaration": true,
-    "importHelpers": true,
-    "jsx": "react",
     "alwaysStrict": true,
+    "declaration": true,
     "forceConsistentCasingInFileNames": true,
+    "jsx": "react",
+    "module": "CommonJS",
+    "moduleResolution": "node",
     "noFallthroughCasesInSwitch": true,
-    "noImplicitReturns": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "noImplicitAny": false,
-    "noImplicitThis": false,
-    "strictNullChecks": false
+    "strict": true,
+    "strictBindCallApply": true,
+    "strictFunctionTypes": true,
+    "strictNullChecks": true,
+    "target": "ESNext"
   },
   "include": ["src/**/*", "__tests__/**/*"]
 }
