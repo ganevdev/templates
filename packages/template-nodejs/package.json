@@ -9,9 +9,9 @@
   },
   "license": "MIT",
   "author": "Ivan Ganev <ganevio92@gmail.com>",
-  "main": "index.js",
+  "main": "src/main.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "node src/main.js",
     "test": "jest",
     "test:coverage": "jest --coverage",
     "test:watch": "jest --watch"
