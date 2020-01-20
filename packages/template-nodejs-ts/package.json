@@ -21,6 +21,7 @@
     "test:watch": "jest --watch"
   },
   "dependencies": {
+    "eslint-plugin-promise": "^4.2.1",
     "tslib": "~1.10.0"
   },
   "devDependencies": {

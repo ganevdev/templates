@@ -1,7 +1,6 @@
 'use strict';
 module.exports = {
   env: {
-    browser: false,
     es6: true,
     jest: true,
     node: true,
@@ -14,13 +13,20 @@ module.exports = {
     'plugin:jest/style',
     'prettier',
     'prettier/@typescript-eslint',
+    'plugin:promise/recommended',
   ],
   parser: '@typescript-eslint/parser',
   parserOptions: {
     project: 'tsconfig.json',
     sourceType: 'module',
   },
-  plugins: ['@typescript-eslint', 'jest', 'simple-import-sort', 'prettier'],
+  plugins: [
+    '@typescript-eslint',
+    'promise',
+    'jest',
+    'simple-import-sort',
+    'prettier',
+  ],
   rules: {
     'prettier/prettier': 'warn',
     'simple-import-sort/sort': 'warn',
