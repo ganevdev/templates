@@ -29,4 +29,3 @@ describe('greeter function', () => {
     expect(hello).toBe(`Hello, ${name}`);
   });
 });
-
