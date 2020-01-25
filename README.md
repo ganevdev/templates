@@ -72,8 +72,6 @@ git clone git@github.com:Ganevru/template-nodejs-ts.git nodejs-ts-project
 lerna publish
 ```
 
-minor varsion
-
 ```bash
 lerna publish minor
 ```
