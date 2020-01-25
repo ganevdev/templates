@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.20](https://github.com/Ganevru/cra-template-ganevru/compare/cra-template-ganevru@1.0.19...cra-template-ganevru@1.0.20) (2020-01-25)
+
+**Note:** Version bump only for package cra-template-ganevru
+
+
+
+
+
 ## [1.0.19](https://github.com/Ganevru/cra-template-ganevru/compare/cra-template-ganevru@1.0.18...cra-template-ganevru@1.0.19) (2020-01-17)
 
 **Note:** Version bump only for package cra-template-ganevru
