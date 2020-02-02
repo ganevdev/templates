@@ -1,0 +1,31 @@
+{
+  "name": "template-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Ivan Ganev personal Monorepo Template",
+  "homepage": "https://github.com/Ganevru/template-monorepo",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Ganevru/template-monorepo.git"
+  },
+  "license": "MIT",
+  "author": "Ivan Ganev <ganevio92@gmail.com>",
+  "main": "index.js",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "start:just-nodejs": "yarn workspace just-nodejs start",
+    "test": "yarn workspaces run test"
+  },
+  "devDependencies": {
+    "lerna": "^3.20.2",
+    "prettier": "^1.19.1",
+    "yarn": "^1.21.1"
+  },
+  "engines": {
+    "node": ">=12.10.0",
+    "npm": "! use yarn !",
+    "yarn": ">=1.0.0"
+  }
+}
