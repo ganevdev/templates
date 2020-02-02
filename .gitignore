@@ -60,3 +60,5 @@ yarn-error.log
 .contentful.json
 .env*
 !.env.example
+
+README2.md
