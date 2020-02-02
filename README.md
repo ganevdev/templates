@@ -66,6 +66,20 @@ Or git clone:
 git clone git@github.com:Ganevru/template-nodejs-ts.git nodejs-ts-project
 ```
 
+## Monorepo
+
+### template-monorepo
+
+Repo: https://github.com/Ganevru/template-monorepo
+
+Start a new GitHub repo from Template: https://github.com/Ganevru/template-monorepo/generate
+
+Or git clone:
+
+```
+git clone git@github.com:Ganevru/template-monorepo.git monorepo-project
+```
+
 ## Development
 
 ```bash
