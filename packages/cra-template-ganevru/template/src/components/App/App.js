@@ -2,7 +2,7 @@ import './App.css';
 
 import React from 'react';
 
-const App = () => {
+function App() {
   return (
     <main className="App">
       <h1>CRA Template Ganevru</h1>
