@@ -8,12 +8,12 @@ Reade about [npm init](https://docs.npmjs.com/cli/init) and [yarn create](https:
 
 About CRA templates: https://create-react-app.dev/docs/custom-templates
 
+In Create React App repo: [create-react-app/packages](https://github.com/facebook/create-react-app/tree/master/packages)
+
 ### cra-template-ganevru
 
 npm: https://www.npmjs.com/package/cra-template-ganevru  
 Repo: https://github.com/Ganevru/cra-template-ganevru
-
-In CRA repo: [cra-template](https://github.com/facebook/create-react-app/tree/master/packages/cra-template)
 
 ```
 yarn create react-app my-react-app --template ganevru
@@ -29,8 +29,6 @@ npm init react-app my-react-app --template ganevru
 
 npm: https://www.npmjs.com/package/cra-template-ganevru-ts  
 Repo: https://github.com/Ganevru/cra-template-ganevru-ts
-
-In CRA repo: [cra-template-typescript](https://github.com/facebook/create-react-app/tree/master/packages/cra-template-typescript)
 
 ```
 yarn create react-app my-react-app-ts --template ganevru-ts
