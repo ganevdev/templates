@@ -2,7 +2,7 @@ import './App.css';
 
 import React from 'react';
 
-const App: React.FC = () => {
+function App() {
   return (
     <main className="App">
       <h1>CRA Template Ganevru TypeScript</h1>
