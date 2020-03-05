@@ -42,7 +42,6 @@ public
 
 # IDE specific
 .idea/
-.vscode/
 *.sw*
 
 .serverless/
