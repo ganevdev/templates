@@ -19,8 +19,8 @@
   },
   "devDependencies": {
     "lerna": "^3.20.2",
-    "prettier": "^1.19.1",
-    "yarn": "^1.21.1"
+    "prettier": "^2.0.5",
+    "yarn": "^1.22.4"
   },
   "engines": {
     "node": ">=12.10.0",

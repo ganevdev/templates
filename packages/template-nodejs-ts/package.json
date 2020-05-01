@@ -35,7 +35,7 @@
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-simple-import-sort": "^5.0.0",
     "jest": "~24.9.0",
-    "prettier": "~1.19.1",
+    "prettier": "~2.0.5",
     "rimraf": "~3.0.0",
     "ts-jest": "~24.2.0",
     "tsutils": "~3.17.0",
